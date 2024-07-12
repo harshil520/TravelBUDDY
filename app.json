@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "TravelBUDDY",
+    "slug": "TravelBUDDY",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/travelbuddy-logo/png/logo-color.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/travelbuddy-logo/png/logo-color.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.android.travelbuddy",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/travelbuddy-logo/png/logo-color.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.android.travelbuddy",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/travelbuddy-logo/png/logo-color.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6257fd6c-126c-4b6c-809e-84db8b83c7b2"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6257fd6c-126c-4b6c-809e-84db8b83c7b2"
+    }
+  }
+}

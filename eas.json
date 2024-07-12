@@ -1,0 +1,56 @@
+{
+  "cli": {
+    "version": ">= 10.1.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "ios": {
+        "simulator": true
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_KEY": "AIzaSyArJQaNBZvY5QA2DuGXh_AaSobmZmfdLKI",
+        "EXPO_PUBLIC_MAILER_ROUTE": "https://mailer-ebon.vercel.app/send",
+        "EXPO_PUBLIC_MAILER_EMAIL": "travelbuddy0907@gmail.com",
+        "EXPO_PUBLIC_MAILER_PASSKEY": "syaxambhcljdahfs",
+        "EXPO_PUBLIC_AI": "generate travel plan for location : from {from} to {to} for {totalDays} days and {totalNight} nights for {traveler} with a {budget} budget. Provide minimum 4 Hotels options list with HotelName, Hotel address, price, hotel google search url, hotel images url google search links, rating, descriptions and places to visit nearby with placeName, Place Details, Place image Url, ticket pricing, time to travel each of the location for {totalDays} days and {totalNight} nights with each day plan with best time to visit. also give the weather condition of {destination} with openweather icon link from {startDay} to {endDay} all dates for better trip experience. give response in json format.",
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyDMEk3BN1GEtlWFt69XZFzl1SmA6eF9j-Y",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "travelbuddy-7a3e7.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "travelbuddy-7a3e7",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "travelbuddy-7a3e7.appspot.com",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "209748328449",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:209748328449:web:6476aad76c624d11508000"
+      }
+    },
+    "production": {
+      "ios": {
+        "simulator": true
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_KEY": "AIzaSyArJQaNBZvY5QA2DuGXh_AaSobmZmfdLKI",
+        "EXPO_PUBLIC_MAILER_ROUTE": "https://mailer-ebon.vercel.app/send",
+        "EXPO_PUBLIC_MAILER_EMAIL": "travelbuddy0907@gmail.com",
+        "EXPO_PUBLIC_MAILER_PASSKEY": "syaxambhcljdahfs",
+        "EXPO_PUBLIC_AI": "generate travel plan for location : from {from} to {to} for {totalDays} days and {totalNight} nights for {traveler} with a {budget} budget. Provide minimum 4 Hotels options list with HotelName, Hotel address, price, hotel google search url, hotel images url google search links, rating, descriptions and places to visit nearby with placeName, Place Details, Place image Url, ticket pricing, time to travel each of the location for {totalDays} days and {totalNight} nights with each day plan with best time to visit. also give the weather condition of {destination} with openweather icon link from {startDay} to {endDay} all dates for better trip experience. give response in json format.",
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyDMEk3BN1GEtlWFt69XZFzl1SmA6eF9j-Y",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "travelbuddy-7a3e7.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "travelbuddy-7a3e7",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "travelbuddy-7a3e7.appspot.com",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "209748328449",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:209748328449:web:6476aad76c624d11508000"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo-specific files
+.expo/
+.expo-shared/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Mac system files
+.DS_Store
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Test coverage and test-related files
+coverage/
+__tests__/
+__mocks__/
+__snapshots__/
+jest.config.js
+jest.setup.js
+
+# Documentation
+docs/
+*.md
+README.md
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Other unnecessary files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+Thumbs.db
